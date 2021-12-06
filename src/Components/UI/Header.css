@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    align-items: center;
+    flex-flow: column-reverse;
+    flex: 0.5;
+    padding: 1rem;
+    background-color: rgb(55, 2, 66);
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 94%;
+    border-radius: 12px;
+    border: 3px solid #ececec;
+    text-align: center;
+}
+
+.expense-item__description {
+
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-end;
+    flex-flow: column-reverse;
+    justify-content: flex-start;
+    flex: 1;
+}
+
+.text-header {
+    text-align: center;
+    color: #ececec;
+}
+
+
+.expense-item__price {
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #40005d;
+    border: 1px solid white;
+    padding: 0.5rem;
+    border-radius: 12px;
+}
+
+
